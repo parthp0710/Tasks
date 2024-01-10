@@ -52,6 +52,12 @@ body{
 .navbar > #sm-screen{
     display: none;
 }
+
+.navbar > #underline{
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
 .content-dashboard{
     padding: 10px 10px 0 10px;
     background-color: #EEEEEE;
