@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+
+
+
+
+
+
+.container > div:nth-child(1n) {
+    background-color: red;	
+  }
+  
+  .container > div:nth-child(2n) {
+    background-color: #88d8b0;
+  }
